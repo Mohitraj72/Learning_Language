@@ -5,7 +5,6 @@ int main()
 {
 
     int arr[6] = {10, 4, 1, 3, 2, 7};
-    int arr[6] = {10, 4, 1, 3, 2, 7};
     for (int i = 0; i < 5; i++)
     {
         int index = i;
