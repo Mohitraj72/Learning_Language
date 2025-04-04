@@ -3,11 +3,9 @@ using namespace std;
 
 int main(){
 
-    int marks[50] = 
+    int marks[50] = {10,20,22,14};
     
-    aaaa
-    aaa
-    aas
-    qwqe
+    444
+    444
     return 0;
 }
