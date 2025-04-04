@@ -7,5 +7,7 @@ int main(){
     
     444
     444
+    kkkk
+    asasas
     return 0;
 }
