@@ -5,11 +5,6 @@ int main(){
 
     int marks[50] = {10,20,22,14};
     
-    444
-    444
-    kkkk
-    asasas
-    wert
-    ert
+    
     return 0;
 }
