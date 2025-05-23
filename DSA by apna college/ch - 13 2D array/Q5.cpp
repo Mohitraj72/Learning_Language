@@ -1,11 +1,11 @@
 #include <iostream>
 using namespace std;
 
-v search(int mat[][4], int n, int m, int key)
+bool search(int mat[][4], int n, int m, int key)
 {
     int i = 0, j = m - 1;
 
-    while (i < n && j <= 0)
+    while (i < n && j >= 0)
     {
         if (mat[i][j] == key)
         {
@@ -26,6 +26,7 @@ v search(int mat[][4], int n, int m, int key)
     return false;
 }
 
+
 int main()
 {
 
@@ -34,7 +35,7 @@ int main()
                         {27, 29, 37, 48},
                         {32, 33, 39, 50}};
 
-    search(matrix, 4, 4, 33);
+    search(matrix, 4, 4, 50);
 
     return 0;
 }
